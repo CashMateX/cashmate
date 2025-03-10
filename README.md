@@ -1,5 +1,5 @@
 
-![Logo](https://raw.githubusercontent.com/CashMateX/cashmate/refs/heads/main/public/banner.png?token=GHSAT0AAAAAAC5RJZLTXVDJWD7GN5CK4RMKZ6PE3AA)
+![Logo](https://i.imgur.com/6zqr1OP.png)
 
 
 # CashMate
