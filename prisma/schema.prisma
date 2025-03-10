@@ -53,3 +53,10 @@ model Transaction {
   updatedAt       DateTime      @updatedAt
 }
 
+model InstanceSettings {
+  id              String        @id @default(cuid())
+  currency        String        @default("USD")
+  registration    Boolean       @default(true)
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+}
