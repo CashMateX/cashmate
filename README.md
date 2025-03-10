@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+![Logo](https://raw.githubusercontent.com/CashMateX/cashmate/refs/heads/main/public/banner.png?token=GHSAT0AAAAAAC5RJZLTXVDJWD7GN5CK4RMKZ6PE3AA)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# CashMate
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+CashMate is your best friend when it comes to managing your money. In no time, you can create your assets, track your income and expenses, and get smart analytics.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- Manage multiple assets at once
+- Track (recurring) expenses and income
+- Get smart analytics and graphs
+- Clean UI & lightning fast performance
+- Coming soon: Mobile app & AI integration
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+COMMING SOON - Currently under development
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application is build with:
+- Next.js & Typescript
+- Tailwindcss with [DaisyUI](https://daisyui.com/)
+- PostgreSQL
+and a lot of love ❤️
+
+## License
+
+Licensed under the [MIT License](https://github.com/CashMateX/cashmate/blob/main/LICENSE).
+
