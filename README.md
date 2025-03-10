@@ -27,7 +27,7 @@ The application is build with:
 - Next.js & Typescript
 - Tailwindcss with [DaisyUI](https://daisyui.com/)
 - PostgreSQL
-and a lot of love ❤️
+- and a lot of love ❤️
 
 ## License
 
