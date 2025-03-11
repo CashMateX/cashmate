@@ -1,12 +1,12 @@
 "use client";
 
-
+import Layout from "@/components/Layout";
 
 export default function Dashboard() {
-
-    return (
-        <div className="flex flex-col items-center justify-center h-screen">
-            <h1>Dashboard</h1>
-        </div>
-    );
+  return (
+    <Layout>
+        
+      <p>Dashboard</p>
+    </Layout>
+  );
 }
