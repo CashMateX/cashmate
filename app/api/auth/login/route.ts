@@ -29,6 +29,11 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Invalid email or password' }, { status: 400 });
         }
 
+        // Ensure JWT_SECRET is defined
+        if (!process.env.JWT_SECRET) {
+            throw new Error('JWT_SECRET is not defined');
+        }
+        
         // Create JWT
         const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '7d' });
 
