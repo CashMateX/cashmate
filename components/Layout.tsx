@@ -38,14 +38,17 @@ export default function Layout({ children }: LayoutProps) {
       <input id="drawer" type="checkbox" className="drawer-toggle" checked={isSidebarOpen} onChange={toggleSidebar} />
 
       <div className="drawer-content flex flex-col">
-        <header className="sticky top-0 z-10 flex h-16 items-center gap-2 bg-base-100 px-4 shadow-sm">
-          <label htmlFor="drawer" className="btn btn-square btn-ghost drawer-button lg:hidden">
+        {/* Mobile Menu Button */}
+        <div className="sticky top-0 z-10 lg:hidden">
+          <label htmlFor="drawer" className="btn btn-ghost m-2">
             <Menu size={20} />
           </label>
-          <h1 className="text-lg font-semibold">Dashboard</h1>
-        </header>
+        </div>
 
-        <main className="flex-1 overflow-y-auto p-4 md:p-6">{children}</main>
+        <main className="flex-1 overflow-y-auto p-4 md:p-6">
+          {/* Dein individueller Titel kommt hier hin */}
+          {children}
+        </main>
       </div>
 
       <div className="drawer-side z-20">
