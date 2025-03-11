@@ -23,7 +23,7 @@ export default function Login() {
         <button className="btn btn-neutral mt-4">Register</button>
 
         <div className="justify-center flex">
-          <Link href="/login">Already have an account? Login here</Link>
+          <Link href="/">Already have an account? Login here</Link>
         </div>
       </fieldset>
     </div>
