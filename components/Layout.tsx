@@ -3,7 +3,7 @@
 import type React from "react"
 import { useState } from "react"
 import Image from "next/image"
-import { Home, LogOut, Menu, Package, Settings, RefreshCw, X } from "lucide-react"
+import { Home, LogOut, Menu, Package, Settings, RefreshCw, X, Landmark } from "lucide-react"
 import Link from "next/link"
 import Cookies from "js-cookie"
 import { useRouter } from "next/navigation"
@@ -22,6 +22,7 @@ export default function Layout({ children }: LayoutProps) {
 
   const navItems = [
     { title: "Dashboard", icon: Home, link: "/dashboard" },
+    { title: "Assets", icon: Landmark, link: "/dashboard/assets" },
     { title: "Transactions", icon: Package, link: "/dashboard/transactions" },
     { title: "Recurring Transactions", icon: RefreshCw, link: "/dashboard/recurring-transactions" },
     { title: "Settings", icon: Settings, link: "/dashboard/settings" },
